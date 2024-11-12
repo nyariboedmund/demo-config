@@ -1,0 +1,14 @@
+management:
+  tracing:
+    sampling:
+      probability: 0.1
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+service:
+  name: employee
+
+server:
+  port: 8095

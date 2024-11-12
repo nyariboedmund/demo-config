@@ -1,0 +1,14 @@
+management:
+  tracing:
+    sampling:
+      probability: 0.1
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+service:
+  name: department-1
+
+server:
+  port: 8091
