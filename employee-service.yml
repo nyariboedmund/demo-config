@@ -1,3 +1,14 @@
+spring:
+  cloud:
+    bus:
+      refresh:
+        enabled: true
+      env:
+        enabled: true
+
+  kafka:
+    bootstrap-servers:  localhost:9092
+
 management:
   tracing:
     sampling:
@@ -8,7 +19,7 @@ management:
         include: "*"
 
 service:
-  name: employee-7
+  name: employee-11
 
 server:
   port: 8095
