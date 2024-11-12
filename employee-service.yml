@@ -8,7 +8,7 @@ management:
         include: "*"
 
 service:
-  name: employee-6
+  name: employee-7
 
 server:
   port: 8095
