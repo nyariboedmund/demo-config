@@ -20,7 +20,7 @@ management:
         include: "*"
 
 service:
-  name: department-17
+  name: department-21
 
 server:
   port: 8091
