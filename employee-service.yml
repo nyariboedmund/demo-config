@@ -19,7 +19,7 @@ management:
         include: "*"
 
 service:
-  name: employee-20
+  name: employee-21
 
 server:
   port: 8095
